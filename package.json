@@ -1,7 +1,7 @@
 {
   "name": "primer-app-coursera",
   "version": "0.1.0",
-  "homepage": "https://github.com/jazpenayo/MyAppReactTodo",
+  "homepage": "https://jazpenayo.github.io/MyAppReactTodo",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -19,6 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
