@@ -6,7 +6,7 @@ const { Component } = require("react");
 export default class ListaTodo extends Component {
     state = {
         todos: [
-          { Id: '1', Titulo: 'Enviar tu cÃ³digo a github', Estado: 'Listo' },
+          { Id: '1', Titulo: 'Enviar tu código a github', Estado: 'Listo' },
           { Id: '2', Titulo: 'Enviar correo a tu jefe', Estado: 'Pendiente' }
         ]
      };
